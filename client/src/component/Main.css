@@ -405,12 +405,23 @@ tr:nth-child(odd) {
 }
 
 .paginationbutton {
-    position: fixed;
+    /* position: fixed;
     height: 40px;
     list-style: none;
     display: flex;
     top: 95%;
-    left: 90%;
+    left: 90%; */
+    /* display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    margin-top: 10px; */
+
+    position: absolute;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    margin-top: 1%;
+    right: 5%;
 
     /* display: flex; */
     /* align-items: flex-end; */

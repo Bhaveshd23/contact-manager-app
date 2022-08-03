@@ -520,8 +520,7 @@ const Main = ({ contactData, setContactData, searchEmail, setSearchEmail }) => {
                 ) : (
                     ""
                 )}
-            </div>
-            <ReactPaginate //pagination inbuilt module
+                <ReactPaginate //pagination inbuilt module
                 previousLabel={"<"}
                 nextLabel={">"}
                 pageCount={pageCount}
@@ -532,6 +531,18 @@ const Main = ({ contactData, setContactData, searchEmail, setSearchEmail }) => {
                 disabledClassName={"paginationDisabled"}
                 activeClassName={"paginationActive"}
             />
+            </div>
+            {/* <ReactPaginate //pagination inbuilt module
+                previousLabel={"<"}
+                nextLabel={">"}
+                pageCount={pageCount}
+                onPageChange={changepage}
+                containerClassName={"paginationbutton"}
+                previousLinkClassName={"previousbutton"}
+                nextLinkClassName={"nextbutton"}
+                disabledClassName={"paginationDisabled"}
+                activeClassName={"paginationActive"}
+            /> */}
         </>
     );
 };
